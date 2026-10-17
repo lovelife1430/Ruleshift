@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuleShift Privacy Policy</title>
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg-color: #0b0d12;
+            --surface-color: #12151d;
+            --surface-raised: #171b25;
+            --text-primary: #f5f7fb;
+            --text-secondary: #a4adbd;
+            --text-body: #d6dce7;
+            --accent-cyan: #63e6e2;
+            --accent-amber: #ffbf69;
+            --border-color: #2a3040;
+            --content-width: 780px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html {
+            min-width: 320px;
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: clamp(16px, 4vw, 56px) 16px;
+            background:
+                radial-gradient(ellipse at top, rgba(99, 230, 226, 0.07), transparent 42%),
+                var(--bg-color);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        .container {
+            width: 100%;
+            max-width: var(--content-width);
+            margin: 0 auto;
+            padding: clamp(22px, 5vw, 48px);
+            background: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+            overflow-wrap: anywhere;
+        }
+
+        .header {
+            margin-bottom: 34px;
+            padding-bottom: 26px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            color: #ffffff;
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            font-weight: 800;
+            line-height: 1.15;
+            letter-spacing: -0.045em;
+            text-wrap: balance;
+        }
+
+        .meta {
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        section {
+            margin: 0 0 30px;
+            scroll-margin-top: 24px;
+        }
+
+        h2 {
+            margin: 0 0 12px;
+            color: var(--accent-cyan);
+            font-size: clamp(1.08rem, 2.5vw, 1.22rem);
+            font-weight: 750;
+            line-height: 1.4;
+            letter-spacing: -0.015em;
+        }
+
+        p {
+            margin: 0 0 14px;
+            color: var(--text-body);
+            font-size: 0.98rem;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0 0 16px;
+            padding-left: 1.35rem;
+            color: var(--text-body);
+            font-size: 0.98rem;
+        }
+
+        li {
+            padding-left: 0.25rem;
+            margin: 0 0 8px;
+        }
+
+        li::marker {
+            color: var(--accent-amber);
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 700;
+        }
+
+        a {
+            color: var(--accent-cyan);
+            text-decoration: underline;
+            text-decoration-color: rgba(99, 230, 226, 0.45);
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
+            overflow-wrap: anywhere;
+            transition: color 160ms ease, text-decoration-color 160ms ease;
+        }
+
+        a:hover {
+            color: #a0fffa;
+            text-decoration-color: currentColor;
+        }
+
+        a:focus-visible {
+            outline: 2px solid var(--accent-amber);
+            outline-offset: 4px;
+            border-radius: 2px;
+        }
+
+        .footer {
+            margin-top: 34px;
+            padding-top: 22px;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        @media (max-width: 520px) {
+            body {
+                padding: 12px;
+                font-size: 15px;
+            }
+
+            .container {
+                padding: 22px 18px;
+                border-radius: 14px;
+            }
+
+            .header {
+                margin-bottom: 26px;
+                padding-bottom: 20px;
+            }
+
+            section {
+                margin-bottom: 25px;
+            }
+
+            p,
+            ul {
+                font-size: 0.95rem;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            a {
+                transition: none;
+            }
+        }
+
+        @media print {
+            :root {
+                color-scheme: light;
+                --text-primary: #111111;
+                --text-secondary: #444444;
+                --text-body: #222222;
+                --border-color: #cccccc;
+            }
+
+            body {
+                padding: 0;
+                background: #ffffff;
+                color: #111111;
+                font-size: 11pt;
+            }
+
+            .container {
+                max-width: none;
+                padding: 0;
+                border: 0;
+                border-radius: 0;
+                background: #ffffff;
+                box-shadow: none;
+            }
+
+            h1,
+            h2,
+            strong,
+            p,
+            ul,
+            li,
+            .meta,
+            .footer {
+                color: #111111;
+            }
+
+            a {
+                color: #111111;
+                text-decoration: underline;
+            }
+
+            section {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>RuleShift Privacy Policy</h1>
+            <p class="meta">Last updated: September 24, 2026</p>
+        </div>
+
+        <section>
+            <h2>1. About RuleShift</h2>
+            <p>RuleShift is a fast-paced cognitive reflex and puzzle mobile game where players tap matching shapes, colors, numbers, and sequences as rules rapidly change. Your privacy is important to us, and this policy explains how our application handles information when you play RuleShift.</p>
+        </section>
+
+        <section>
+            <h2>2. Information Stored on Your Device</h2>
+            <p>RuleShift stores your game progress and personal settings directly on your device:</p>
+            <ul>
+                <li><strong>Game Records:</strong> Your high score, highest combo streak, number of shifts survived, and fastest shift time.</li>
+                <li><strong>Revive Keys:</strong> Your banked balance of in-game Keys.</li>
+                <li><strong>Settings:</strong> Your audio (sound effects), vibration (haptic feedback), and tutorial completion preferences.</li>
+            </ul>
+            <p>This data is kept locally on your phone so your game progress is preserved between sessions. We do not upload your scores or gameplay data to any external RuleShift server. You can reset your stored scores at any time from the Settings menu.</p>
+        </section>
+
+        <section>
+            <h2>3. Advertising</h2>
+            <p>RuleShift is a free-to-play game supported by third-party advertising provided by Google Mobile Ads (AdMob).</p>
+            <ul>
+                <li><strong>Rewarded Video Ads:</strong> You can choose to watch an optional video advertisement to earn in-game Revive Keys or to revive your run after a game over.</li>
+                <li><strong>Interstitial Ads:</strong> Brief ads may occasionally appear between game sessions.</li>
+            </ul>
+            <p>To deliver relevant advertisements, measure ad performance, and combat fraud, Google Mobile Ads may automatically collect and process certain device information, such as your device's advertising identifier, coarse general location (derived from IP address), and ad interaction statistics. This data is handled in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
+        </section>
+
+        <section>
+            <h2>4. Sharing</h2>
+            <p>When you choose to share your score using the in-game Share button, RuleShift uses your device's standard Android share menu. Only the summary text of your score and shifts survived is passed to the app you select (such as a messaging or social app). RuleShift does not monitor or receive copies of what you share.</p>
+        </section>
+
+        <section>
+            <h2>5. Information We Do Not Collect</h2>
+            <p>RuleShift is designed so you can jump in and play immediately:</p>
+            <ul>
+                <li><strong>No Accounts:</strong> You do not need to create an account, log in, or provide your name, phone number, or email address.</li>
+                <li><strong>No Contact Lists:</strong> We do not access your contacts, photos, microphone, or camera.</li>
+                <li><strong>No Tracking of Personal Files:</strong> We do not read or access personal files on your device.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Children's Privacy</h2>
+            <p>RuleShift is designed for a general audience. We do not knowingly collect personal information from children under the age of 13. If you believe that a child has provided us with personal information, please contact us so we can investigate and address the matter.</p>
+        </section>
+
+        <section>
+            <h2>7. Your Choices</h2>
+            <ul>
+                <li><strong>Resetting Scores:</strong> You can reset all your stored statistics anytime via the Settings screen.</li>
+                <li><strong>Personalized Ads:</strong> You can manage or reset your advertising identifier and opt out of personalized ad tracking through your Android device settings (Settings &gt; Google &gt; Ads).</li>
+                <li><strong>Audio &amp; Haptics:</strong> You can toggle sound effects and vibration feedback on or off in the Settings screen.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>8. Security</h2>
+            <p>Because your game progress is stored directly on your own device and we do not maintain online user accounts, your gameplay data remains in your control. We encourage you to use standard device security measures (such as screen locks) to protect your device.</p>
+        </section>
+
+        <section>
+            <h2>9. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy occasionally to reflect changes in our game or applicable legal requirements. The updated date at the top of this policy will always show when it was last revised.</p>
+        </section>
+
+        <section>
+            <h2>10. Contact Us</h2>
+            <p>If you have any questions, feedback, or concerns regarding this Privacy Policy or RuleShift, please reach out to us:</p>
+            <p><a href="mailto:ruleshiftahmisa@gmail.com">Contact RuleShift</a></p>
+        </section>
+
+        <div class="footer">
+            &copy; 2026 RuleShift. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
